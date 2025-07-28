@@ -43,3 +43,5 @@ bool ArcLRUCache<Key, Value>::decreaseCapacity(){
     --capacity;
     return true;
 }
+
+template class ArcLRUCache<int, int>;

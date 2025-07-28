@@ -34,6 +34,6 @@ class HashLFUCache{
         void close();
 };
 
-template class HashLFUCache<int, int>;
+extern template class HashLFUCache<int, int>;
 
 #endif

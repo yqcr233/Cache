@@ -18,3 +18,5 @@ Value HashLRUCache<Key, Value>::get(Key key){
     size_t hash_idx = Hash(key) % slice_num;
     return hash_lru_cache[hash_idx]->get(key);
 }
+
+template class HashLRUCache<int, int>;

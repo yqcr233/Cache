@@ -62,3 +62,5 @@ void KLRUCache<Key, Value>::put(Key key, Value val){
         LRUCache<Key, Value>::put(key, val);
     }
 }
+
+template class KLRUCache<int, int>;

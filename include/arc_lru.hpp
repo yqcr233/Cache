@@ -106,5 +106,5 @@ class ArcLRUCache{
         bool decreaseCapacity();
 };
 
-template class ArcLRUCache<int, int>;
+extern template class ArcLRUCache<int, int>;
 #endif

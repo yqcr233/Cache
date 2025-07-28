@@ -48,3 +48,5 @@ template<typename Key, typename Value>
 bool ArcLFUCache<Key, Value>::contain(Key key){
     return main_cache.find(key) != main_cache.end();
 }
+
+template class ArcLFUCache<int, int>;

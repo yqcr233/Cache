@@ -28,3 +28,5 @@ Value ArcCache<Key, Value>::get(Key key){
     get(key, val);
     return val;
 }
+
+template class ArcCache<int, int>;

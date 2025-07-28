@@ -124,5 +124,5 @@ class ArcLFUCache{
         bool decreaseCapacity();
 };
 
-template class ArcLFUCache<int, int>;
+extern template class ArcLFUCache<int, int>;
 #endif

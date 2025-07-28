@@ -92,6 +92,6 @@ class LRUCache{
         shared_ptr<LRUNode<Key, Value>> tail;
 };
 
-template class LRUCache<int, int>;
-template class LRUCache<int, unsigned long long>;
+extern template class LRUCache<int, int>;
+extern template class LRUCache<int, unsigned long long>;
 #endif

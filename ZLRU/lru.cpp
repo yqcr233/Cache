@@ -41,3 +41,6 @@ void LRUCache<Key, Value>::remove(Key key){
         nodemap.erase(it);
     }
 }
+
+template class LRUCache<int, int>;
+template class LRUCache<int, unsigned long long>;

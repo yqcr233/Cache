@@ -39,5 +39,5 @@ class ArcCache{
         Value get(Key key);
 };
 
-template class ArcCache<int, int>;
+extern template class ArcCache<int, int>;
 #endif

@@ -35,5 +35,5 @@ class HashLRUCache{
         }
 };
 
-template class HashLRUCache<int, int>;
+extern template class HashLRUCache<int, int>;
 #endif

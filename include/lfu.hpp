@@ -161,5 +161,5 @@ class KLFUCache{
         void close(); // 清空缓存
 };
 
-template class KLFUCache<int, int>;
+extern template class KLFUCache<int, int>;
 #endif

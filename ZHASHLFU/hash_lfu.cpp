@@ -25,3 +25,5 @@ void HashLFUCache<Key, Value>::close(){
         a->close();
     }
 }
+
+template class HashLFUCache<int, int>;

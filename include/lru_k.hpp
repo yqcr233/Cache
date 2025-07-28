@@ -20,5 +20,5 @@ class KLRUCache : public LRUCache<Key, Value>{
         unordered_map<Key, Value> h_map;
 };
 
-template class KLRUCache<int, int>;
+extern template class KLRUCache<int, int>;
 #endif

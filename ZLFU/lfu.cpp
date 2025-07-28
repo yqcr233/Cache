@@ -33,3 +33,5 @@ void KLFUCache<Key, Value>::close(){
     nodemap.clear();
     freqToFreqList.clear();
 }
+
+template class KLFUCache<int, int>;
